@@ -112,13 +112,14 @@ const CriarTarefa = ({handleClose, tarefas, setTarefas}) =>{
                   onChange={handleRecurso}
                   size="small"
                   sx={{
-                    color:'rgba(0, 0, 0, 0.6)',
+                    color:'rgba(0, 0, 0, 0.9)',
                     fontWeight: 400,
                   }} 
                 >
                   <MenuItem value={'Recurso 1'}>Recurso 1</MenuItem>
                   <MenuItem value={'Recurso 2'}>Recurso 2</MenuItem>
                   <MenuItem value={'Recurso 3'}>Recurso 3</MenuItem>
+                  <MenuItem value={'Recurso 4'}>Recurso 4</MenuItem>
                 </Select>
               </FormControl>
             </Grid>
